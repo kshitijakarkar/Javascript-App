@@ -7,14 +7,25 @@
 <body>
 	<h1> <span  id = "p1Score">0</span> to <span id = "p2Score">0</span></h1>
 
-	<h3>Playing to : <span id = "MaxScore" >5</span></h3>
-	<input id = "input" type= "number">
-	<button id = "p1Button"> Player 1 </button>
-	<button id = "p2Button"> Player 2 </button>
-	<button id = "resetButton"> Reset </button>
 
-<!-- 
+	<button id = "p1Button" onclick="playAgain()"> Play Again ? </button>
+
+  <div>
+  <img src = "rock.jpeg" height="100 px" width="100px" style="margin-left:100px;" onclick="rock()" id='rockhard'></img>
+  <img src = "paper.jpg" height="100 px" width="100px"style="margin-left:200px;"onclick="paper()"></img>
+  <img src = "scissors.jpg" height="100 px" width="100px" style="margin-left:300px;" onclick="scissor()"></img>
+
+  <!-- <p id = "demo">Selection</p> -->
+  <!-- <p id = "demo1">Selection</p> -->
+  <!-- <p id = "demo2">Selection</p> -->
+  <p id = "demo3">Selection</p>
+  <p id = "demo4">Result</p>
+  <span id="count1">0</span>/<span id="count2">0</span>
+  <h1 id="announce"></h1>
+</div>
+<img src = "comp.jpg" height="300 px" width="300px" style="margin-bottom:20px; margin-left :500px;"></img>
+<!--
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script> -->
-<script type="text/javascript" src = "scoreboard.js"></script>
+<script type="text/javascript" src = "rockpaperscissor.js"></script>
 </body>
 </html>
